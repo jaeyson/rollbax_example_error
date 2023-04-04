@@ -7,10 +7,6 @@
 # General application configuration
 import Config
 
-config :rollbax,
-  access_token: System.get_env("ROLLBAR_ACCESS_TOKEN"),
-  environment: "production"
-
 # Configures the endpoint
 config :test, TestWeb.Endpoint,
   url: [host: "localhost"],
